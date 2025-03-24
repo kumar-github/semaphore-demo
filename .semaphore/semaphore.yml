@@ -20,6 +20,8 @@ blocks:
         - name: Unit Tests
           commands:
             - echo "Running unit tests..."
+            - mvn clean
         - name: Integration Tests
           commands:
             - echo "Running unit tests..."
+            - mvn clean
