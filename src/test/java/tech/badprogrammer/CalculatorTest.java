@@ -28,4 +28,16 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         Assertions.assertEquals(1, calculator.subtract(2, 1));
     }
+
+    @Test
+    void test_multiply_001() {
+        Calculator calculator = new Calculator();
+        Assertions.assertEquals(1, calculator.multiply(1, 1));
+    }
+
+    @Test
+    void test_multiply_002() {
+        Calculator calculator = new Calculator();
+        Assertions.assertEquals(2, calculator.multiply(1, 2));
+    }
 }
